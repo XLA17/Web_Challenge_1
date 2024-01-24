@@ -1,0 +1,145 @@
+.invisible {
+    display: none;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+#ratingState {
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+#ratingState h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#ratingState img {
+    background-color: hsl(213, 21%, 23%);
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#ratingState p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+#notes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#notes input[type="radio"] {
+    display: none;
+}
+
+.inputNoteChecked {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.inputNoteNotChecked {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 21%, 23%);
+}
+
+#notes .note {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#notes .note:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+#submitButton {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+#thankYouState {
+    background-color: hsl(213, 19%, 18%);
+    width: 350px;
+    border-radius: 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+#thankYouState h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+#selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#thankYouState h2 {
+    background-color: hsl(213, 21%, 23%);
+    color: hsl(25, 97%, 53%);
+    width: fit-content;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+#thankYouState h2 span {
+    color: hsl(25, 97%, 53%);
+}
+
+#thankYouState img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#thankYouState p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}

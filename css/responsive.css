@@ -1,0 +1,14 @@
+@media screen and (max-width: 375px) {
+    #ratingState {
+        width: 250px;
+    }
+
+    #ratingState .note {
+        width: 20px;
+        height: 20px;
+    }
+
+    #thankYouState {
+        width: 250px;
+    }
+}
