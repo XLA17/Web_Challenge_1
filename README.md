@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Capture d’écran 2024-01-24 à 17.18.16](assets/Capture%20d%E2%80%99e%CC%81cran%202024-01-24%20a%CC%80%2017.18.16.png)
-![Capture d’écran 2024-01-24 à 17.18.23](assets/Capture%20d%E2%80%99e%CC%81cran%202024-01-24%20a%CC%80%2017.18.23.png)
+![Capture d’écran 2024-01-24 à 17.18.16](assets/Screenshot_RatingState.png)
+![Capture d’écran 2024-01-24 à 17.18.23](assets/Screenshot_ThankYouState.png)
 
 ## My process
 
